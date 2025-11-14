@@ -3,6 +3,7 @@ module org.example.restaurantejavafx {
     requires javafx.fxml;
     requires java.net.http;
     requires javafx.graphics;
+    requires com.fasterxml.jackson.databind;
 
 
     opens org.example.restaurantejavafx to javafx.fxml;

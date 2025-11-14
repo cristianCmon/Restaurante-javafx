@@ -6,20 +6,33 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class C_Principal {
 
     @FXML
     private Label welcomeText;
 
-    private PeticionesHttp llamarApi;
+    private final PeticionesHttp llamarApi = new PeticionesHttp();
+    private final List<Mesa> mesas = new ArrayList<>();
+    private final List<Menu> menus = new ArrayList<>();
 
 
     @FXML
     private void initialize() throws IOException, InterruptedException {
-        llamarApi = new PeticionesHttp();
-        System.out.println(llamarApi.getMesas());
-        System.out.println(llamarApi.getMenus());
+        mesas.addAll(llamarApi.recibirMesas());
+        menus.addAll(llamarApi.recibirMenus());
+
+        for (Mesa mesa : mesas) {
+            System.out.println(mesa);
+        }
+
+        for (Menu menu : menus) {
+            System.out.println(menu);
+        }
+//        System.out.println(llamarApi.getMesas());
+//        System.out.println(llamarApi.getMenus());
     }
 
     @FXML
