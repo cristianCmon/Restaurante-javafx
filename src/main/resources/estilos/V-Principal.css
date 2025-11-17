@@ -1,0 +1,90 @@
+
+
+#mesa0, #mesa1, #mesa2, #mesa3, #mesa4 {
+    -fx-background-color: #303030;
+    -fx-text-fill: #FFFFFF;
+}
+
+#mesa0:hover, #mesa1:hover, #mesa2:hover, #mesa3:hover, #mesa4:hover {
+    -fx-background-color: #5E6A7B;
+    -fx-text-fill: #FFFFFF;
+}
+
+/*
+.label {
+    -fx-background-color: #303030;
+    -fx-text-fill: #FFFFFF;
+}
+
+.label:hover {
+    -fx-background-color: #5E6A7B;
+    -fx-text-fill: #FFFFFF;
+    -fx-opacity: 0.9;
+}
+*/
+#idMesaSeleccionada {
+    -fx-text-fill: #FFFFFF;
+}
+
+#gpRejillaAbecedario .label {
+    -fx-background-color: #3F4752;
+    -fx-text-fill: #FFFFFF;
+    -fx-opacity: 0.9;
+}
+
+#gpRejillaAbecedario .label:hover {
+    -fx-background-color: #5E6A7B;
+    -fx-text-fill: #FFFFFF;
+    -fx-opacity: 0.9;
+}
+
+#gpRejillaAbecedario #lbEnter:hover {
+    -fx-background-color: #9623B2;
+}
+
+#gpRejillaAbecedario #lbBorrar:hover {
+    -fx-background-color: #9623B2;
+}
+
+#gpRejillaAbecedario #lbOpciones:hover {
+    -fx-background-color: #9623B2;
+}
+
+/*
+Oscuro palabra usada no correcta  #222222
+Verde está y en posición correcta #43A047
+Amarillo está pero no en posición #E4A81D
+*/
+
+
+
+
+
+/*
+.label {
+    -fx-border-color: brown ;
+    -fx-border-width: 2;
+}
+
+#lbTitulo {
+    -fx-border-width: 0;
+    -fx-border-style: none;
+}
+
+#lbFin {
+    -fx-border-width: 0;
+    -fx-border-style: none;
+}
+
+#lbCamarero1 {
+    -fx-border-color: RoyalBlue ;
+    -fx-border-width: 2;
+    -fx-border-style: dotted;
+}
+
+#lbCamarero2 {
+    -fx-border-color: RoyalBlue ;
+    -fx-border-width: 2;
+    -fx-border-style: dotted;
+}
+*/

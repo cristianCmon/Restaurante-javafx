@@ -10,6 +10,8 @@ public class Menu {
     private String rutaImagen;
 
 
+    public Menu() {};
+
     public Menu(String _id, String tipo, String descripcion, double precio) {
         this._id = _id;
         this.tipo = tipo;
@@ -30,7 +32,7 @@ public class Menu {
         return _id;
     }
 
-    public void setId(String idPedido) {
+    public void set_id(String idPedido) {
         this._id = idPedido;
     }
 
